@@ -39,6 +39,7 @@
 		321ED8CE22A6D4C00017F09D = {
 			isa = PBXGroup;
 			children = (
+				321ED8EC22A6E4380017F09D /* README.md */,
 				321ED8D922A6D4C00017F09D /* AboutMe (iOS7) */,
 				321ED8D822A6D4C00017F09D /* Products */,
 			);
@@ -57,7 +58,6 @@
 			children = (
 				321ED8DA22A6D4C00017F09D /* AppDelegate.swift */,
 				321ED8DC22A6D4C00017F09D /* ViewController.swift */,
-				321ED8EC22A6E4380017F09D /* README.md */,
 				321ED8DE22A6D4C00017F09D /* Main.storyboard */,
 				321ED8E122A6D4C10017F09D /* Assets.xcassets */,
 				321ED8E322A6D4C10017F09D /* LaunchScreen.storyboard */,
