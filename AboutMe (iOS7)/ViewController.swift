@@ -10,17 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    //MARK: UILabels
+    //MARK: - UILabels
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var hobbiesLabel: UILabel!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        nameLabel.text = nil
+        hobbiesLabel.text = nil
+    }
+
+    //MARK: - IBActions
+    
+    @IBAction func indroduceSelfButtonTapped(_ sender: Any) {
         nameLabel.text = "Jake Connerly"
         hobbiesLabel.text = "Coding, Fishing, Hunting and Mountain Biking"
     }
-
-
+    
 }
 
