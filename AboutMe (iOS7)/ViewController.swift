@@ -10,9 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //MARK: UILabels
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var hobbiesLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("My name is Jake Connerly")
+        nameLabel.text = "Jake Connerly"
+        hobbiesLabel.text = "Coding, Fishing, Hunting and Mountain Biking"
     }
 
 
