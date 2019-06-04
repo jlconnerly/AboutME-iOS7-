@@ -22,6 +22,7 @@
 		321ED8E122A6D4C10017F09D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		321ED8E422A6D4C10017F09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		321ED8E622A6D4C10017F09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		321ED8EC22A6E4380017F09D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 			children = (
 				321ED8DA22A6D4C00017F09D /* AppDelegate.swift */,
 				321ED8DC22A6D4C00017F09D /* ViewController.swift */,
+				321ED8EC22A6E4380017F09D /* README.md */,
 				321ED8DE22A6D4C00017F09D /* Main.storyboard */,
 				321ED8E122A6D4C10017F09D /* Assets.xcassets */,
 				321ED8E322A6D4C10017F09D /* LaunchScreen.storyboard */,
